@@ -28,7 +28,7 @@ MyLibraryComponent.ɵcmp = ɵɵdefineComponent({ type: MyLibraryComponent, selec
     } if (rf & 2) {
         ɵɵadvance(2);
         ɵɵtextInterpolate(ctx.welcomeMessage);
-    } }, styles: [".welcome-card[_ngcontent-%COMP%] {\n        display: flex;\n        justify-content: center;\n      }\n      .welcome-card[_ngcontent-%COMP%] {\n        background-color: #ccffcc;\n        padding: 10px;\n        margin: 10px;\n        border-radius: 10px;\n        font-size: 24px;\n      }"] });
+    } }, styles: [".container[_ngcontent-%COMP%] {\n        display: flex;\n        justify-content: center;\n      }\n      .welcome-card[_ngcontent-%COMP%] {\n        background-color: #ccffcc;\n        padding: 10px;\n        margin: 10px;\n        border-radius: 10px;\n        font-size: 24px;\n      }"] });
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵsetClassMetadata(MyLibraryComponent, [{
         type: Component,
         args: [{
@@ -40,7 +40,7 @@ MyLibraryComponent.ɵcmp = ɵɵdefineComponent({ type: MyLibraryComponent, selec
   `,
                 styles: [
                     `
-      .welcome-card {
+      .container {
         display: flex;
         justify-content: center;
       }

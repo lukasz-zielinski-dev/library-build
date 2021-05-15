@@ -41,7 +41,7 @@
                 i0.ɵɵadvance(2);
                 i0.ɵɵtextInterpolate(ctx.welcomeMessage);
             }
-        }, styles: [".welcome-card[_ngcontent-%COMP%] {\n        display: flex;\n        justify-content: center;\n      }\n      .welcome-card[_ngcontent-%COMP%] {\n        background-color: #ccffcc;\n        padding: 10px;\n        margin: 10px;\n        border-radius: 10px;\n        font-size: 24px;\n      }"] });
+        }, styles: [".container[_ngcontent-%COMP%] {\n        display: flex;\n        justify-content: center;\n      }\n      .welcome-card[_ngcontent-%COMP%] {\n        background-color: #ccffcc;\n        padding: 10px;\n        margin: 10px;\n        border-radius: 10px;\n        font-size: 24px;\n      }"] });
     (function () {
         (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(MyLibraryComponent, [{
                 type: i0.Component,
@@ -49,7 +49,7 @@
                         selector: 'lib-my-library',
                         template: "\n    <div class=\"container\">\n      <div class=\"welcome-card\">{{ welcomeMessage }}</div>\n    </div>\n  ",
                         styles: [
-                            "\n      .welcome-card {\n        display: flex;\n        justify-content: center;\n      }\n      .welcome-card {\n        background-color: #ccffcc;\n        padding: 10px;\n        margin: 10px;\n        border-radius: 10px;\n        font-size: 24px;\n      }\n    ",
+                            "\n      .container {\n        display: flex;\n        justify-content: center;\n      }\n      .welcome-card {\n        background-color: #ccffcc;\n        padding: 10px;\n        margin: 10px;\n        border-radius: 10px;\n        font-size: 24px;\n      }\n    ",
                         ],
                     }]
             }], function () { return []; }, { name: [{
